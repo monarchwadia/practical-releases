@@ -1,0 +1,18 @@
+{
+    "id": "practicalkit-builtin-file-explorer",
+    "name": "File Explorer Plugin",
+    "modules": [
+        {
+            "id": "file-explorer",
+            "name": "File Explorer",
+            "main": "index.html",
+            "type": "panel"
+        },
+        {
+            "id": "hello-world-test-panel",
+            "name": "Hello World Test Panel",
+            "main": "hello-world.html",
+            "type": "panel"
+        }
+    ]
+}
