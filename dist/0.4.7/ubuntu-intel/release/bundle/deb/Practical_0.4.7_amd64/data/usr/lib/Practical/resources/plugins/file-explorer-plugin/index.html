@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Explorer</title>
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #333333;
+            --hover-color: #f0f0f0;
+            --border-color: #e0e0e0;
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg-color: #1e1e1e;
+                --text-color: #cccccc;
+                --hover-color: #2a2a2a;
+                --border-color: #333333;
+            }
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            font-size: 13px;
+            user-select: none;
+        }
+        #app {
+            padding: 0;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+        li {
+            padding: 4px 8px;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        li:hover {
+            background-color: var(--hover-color);
+        }
+        .icon {
+            width: 16px;
+            text-align: center;
+            opacity: 0.8;
+        }
+        .up-btn {
+            padding: 8px;
+            border-bottom: 1px solid var(--border-color);
+            cursor: pointer;
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+        .up-btn:hover {
+            background-color: var(--hover-color);
+        }
+        .empty-state {
+            padding: 20px;
+            text-align: center;
+            opacity: 0.5;
+        }
+    </style>
+  <script type="module" crossorigin src="./assets/index-5RZ5o8aM.js"></script>
+</head>
+<body>
+    <div id="app">Initializing...</div>
+</body>
+</html>

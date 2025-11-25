@@ -1,0 +1,17 @@
+{
+  "id": "practicalkit-markdown-plugin",
+  "name": "Markdown Editor",
+  "modules": [
+    {
+      "id": "markdown-editor",
+      "name": "Markdown Editor",
+      "main": "index.html",
+      "type": "daemon"
+    }
+  ],
+  "file_handlers": [
+    {
+      "extensions": ["md", "markdown"]
+    }
+  ]
+}
