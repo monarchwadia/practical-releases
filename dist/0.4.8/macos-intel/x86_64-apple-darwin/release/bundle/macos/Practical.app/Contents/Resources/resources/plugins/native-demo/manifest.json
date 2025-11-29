@@ -1,0 +1,22 @@
+{
+  "id": "native-demo",
+  "name": "Native Demo Plugin",
+  "modules": [
+    {
+      "id": "native-demo-panel",
+      "name": "Native Demo Panel",
+      "main": "index.html",
+      "type": "panel"
+    },
+    {
+      "id": "native-backend",
+      "name": "Native Backend",
+      "type": "native",
+      "src": {
+        "linux-x86_64": "./bin/libnative_demo.so",
+        "windows-x86_64": "./bin/native_demo.dll",
+        "macos-aarch64": "./bin/libnative_demo.dylib"
+      }
+    }
+  ]
+}
