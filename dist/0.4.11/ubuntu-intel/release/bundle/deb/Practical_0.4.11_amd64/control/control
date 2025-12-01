@@ -1,0 +1,9 @@
+Package: practical
+Version: 0.4.11
+Architecture: amd64
+Installed-Size: 25465
+Maintainer: you
+Priority: optional
+Depends: libwebkit2gtk-4.1-0, libgtk-3-0
+Description: A Tauri App
+ (none)
