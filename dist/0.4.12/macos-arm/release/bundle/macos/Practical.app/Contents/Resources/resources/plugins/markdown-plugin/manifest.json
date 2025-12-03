@@ -1,0 +1,19 @@
+{
+  "id": "practicalkit-markdown-plugin",
+  "name": "Markdown Editor",
+  "modules": [
+    {
+      "id": "markdown-editor",
+      "name": "Markdown Editor",
+      "main": "index.html",
+      "type": "editor",
+      "permissions": ["fs.watch"]
+    }
+  ],
+  "file_handlers": [
+    {
+      "extensions": ["md", "markdown"],
+      "module_id": "markdown-editor"
+    }
+  ]
+}

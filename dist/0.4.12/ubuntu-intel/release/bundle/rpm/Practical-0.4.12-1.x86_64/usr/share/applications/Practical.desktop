@@ -1,0 +1,9 @@
+[Desktop Entry]
+Categories=
+Comment=A Tauri App
+Exec=practical
+StartupWMClass=practical
+Icon=practical
+Name=Practical
+Terminal=false
+Type=Application
