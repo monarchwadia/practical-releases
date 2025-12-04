@@ -1,0 +1,27 @@
+{
+  "id": "practicalkit-chat-plugin",
+  "name": "Chat",
+  "modules": [
+    {
+      "id": "service",
+      "name": "Chat Background Service",
+      "main": "service.html",
+      "type": "backgroundService",
+      "allowedOrigins": [
+        "https://api.openai.com"
+      ]
+    },
+    {
+      "id": "chat",
+      "name": "Chat",
+      "main": "index.html",
+      "type": "panel"
+    },
+    {
+      "id": "blank",
+      "name": "Chat Home",
+      "main": "index.html",
+      "type": "blank"
+    }
+  ]
+}
