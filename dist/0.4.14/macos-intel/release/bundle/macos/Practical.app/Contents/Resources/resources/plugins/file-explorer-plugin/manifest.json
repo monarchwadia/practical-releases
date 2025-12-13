@@ -1,0 +1,14 @@
+{
+    "id": "practicalkit-builtin-file-explorer",
+    "name": "File Explorer Plugin",
+    "modules": [
+        {
+            "id": "file-explorer",
+            "name": "File Explorer",
+            "main": "index.html",
+            "type": "panel",
+            "permissions": ["fs.watch", "ui:read"],
+            "defaultVisible": false
+        }
+    ]
+}
